@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWTD</title>
+    <!-- anonymized statistics-->
+    <script async defer data-website-id="92bf9f8e-73a6-4831-99e9-21c617ab97cc" src="https://h0rn0chse-umami.up.railway.app/WQ4fyxmP2iMY.js"></script>
+
+    <!-- Dependencies -->
+    <script src="./libs/feather-icons/feather.min.js" defer></script>
+    <link rel="stylesheet" href="./libs/picnic/picnic.min.css">
+    <script type="module" src="./libs/wc-github-corners/index.es.js" defer></script>
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <script type="module" src="./scripts/index.js"></script>
+</head>
+<body>
+    <div id="app" class="">
+        <div id="fourstar" class="category">
+            <div class="fourstar icon">
+                <img src="./assets/star.png">
+                <img src="./assets/star.png">
+                <img src="./assets/star.png">
+                <img src="./assets/star.png">
+            </div>
+            <div class="rowContainer">
+                <div class="rows">
+                    <!-- generated content -->
+                </div>
+                <div id="btnRowFourStar" class="addRow iconButton" title="Add Row">
+                    <i data-feather="plus-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div id="fivestar" class="category">
+            <div class="fivestar icon">
+                <div>
+                    <img src="./assets/star.png">
+                    <img src="./assets/star.png">
+                </div>
+                <div>
+                    <img src="./assets/star.png">
+                    <img src="./assets/star.png">
+                    <img src="./assets/star.png">
+                </div>
+            </div>
+            <div class="rowContainer">
+                <div class="rows">
+                    <!-- generated content -->
+                </div>
+                <div id="btnRowFiveStar" class="addRow iconButton" title="Add Row">
+                    <i data-feather="plus-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <label>
+                <input id="editMode" type="checkbox">
+                <span class="checkable">Edit Mode</span>
+            </label>
+            <button>
+                Clear
+            </button>
+            <button>
+                Save
+            </button>
+            <button>
+                Import
+            </button>
+        </div>
+    </div>
+    <div class="modal">
+        <input id="addContent_modal" type="checkbox" />
+        <label for="addContent_modal" class="overlay"></label>
+        <article id="addContent_content">
+            <section class="content">
+                <select id="contentSelect">
+                    <option value="monster">Monster</option>
+                    <option value="text">Text</option>
+                </select>
+
+                <div class="content monster">
+                    <select id="monsterSelect" class="input">
+                    </select>
+                </div>
+                <div class="content text hidden">
+                    <input type="text" class="input">
+                </div>
+            </section>
+            <footer>
+                <a id="addContent_add" class="button" href="#">Add Content</a>
+                <label for="addContent_modal" class="button dangerous">
+                    Cancel
+                </label>
+            </footer>
+        </article>
+    </div>
+</body>
+<github-corners
+    label="Check out the GitHub repository!"
+    repo="H0rn0chse/SWTD"
+    blank="true"
+>
+</github-corners>
+</html>

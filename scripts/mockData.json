@@ -1,0 +1,267 @@
+{
+    "fourStar": {
+        "rows": [{
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "R12spam"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Skogul"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Vigor"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Molly"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "B8"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Martina"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Shaina"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Triana"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "B12+spam"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Harmonia"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Vigor"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Skogul"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "B1"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Carcano"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "+X"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Triana"
+                }]
+            }]
+        }]
+    },
+    "fiveStar": {
+        "rows": [{
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "B10s =Lds"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Tesa"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Riley"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Ragdoll"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "(4x)"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": []
+            }, {
+                "content": []
+            }, {
+                "content": []
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Artamiel"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "R10/G10=Lds spam"
+                }]
+            }, {
+                "content": []
+            }, {
+                "content": []
+            }, {
+                "content": []
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "R9+spam"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Woosa"
+                }, {
+                    "type": "monster",
+                    "value": "Juno"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Woosa"
+                }, {
+                    "type": "monster",
+                    "value": "Juno"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Savannah"
+                }, {
+                    "type": "text",
+                    "value": "+Windmob"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "R5"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Mo Long"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "+X"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "+X"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "R9+R6+Spam"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Seara"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Orion"
+                }, {
+                    "type": "text",
+                    "value": "(Vio>150spd) "
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Perna"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": []
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Seara"
+                }]
+            }, {
+                "content": [{
+                    "type": "monster",
+                    "value": "Raoq"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "+X"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "Alternativ"
+                }]
+            }]
+        }, {
+            "cells": [{
+                "content": [{
+                    "type": "text",
+                    "value": "R3+R1 (FailTower)"
+                }]
+            }, {
+                "content": [{
+                    "type": "text",
+                    "value": "Tankteams"
+                }]
+            }, {
+                "content": []
+            }, {
+                "content": []
+            }]
+        }]
+    }
+}
