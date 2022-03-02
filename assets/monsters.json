@@ -1,0 +1,62 @@
+{
+    "Skogul": {
+        "img": "./assets/monsters/Skogul.png"
+    },
+    "Vigor": {
+        "img": "./assets/monsters/Vigor.png"
+    },
+    "Molly": {
+        "img": "./assets/monsters/Molly.png"
+    },
+    "Martina": {
+        "img": "./assets/monsters/Martina.png"
+    },
+    "Shaina": {
+        "img": "./assets/monsters/Shaina.png"
+    },
+    "Triana": {
+        "img": "./assets/monsters/Triana.png"
+    },
+    "Harmonia": {
+        "img": "./assets/monsters/Harmonia.png"
+    },
+    "Carcano": {
+        "img": "./assets/monsters/Carcano.png"
+    },
+    "Tesa": {
+        "img": "./assets/monsters/Tesa.png"
+    },
+    "Riley": {
+        "img": "./assets/monsters/Riley.png"
+    },
+    "Ragdoll": {
+        "img": "./assets/monsters/Ragdoll.png"
+    },
+    "Artamiel": {
+        "img": "./assets/monsters/Artamiel.png"
+    },
+    "Woosa": {
+        "img": "./assets/monsters/Woosa.png"
+    },
+    "Juno": {
+        "img": "./assets/monsters/Juno.png"
+    },
+    "Savannah": {
+        "img": "./assets/monsters/Savannah.png"
+    },
+    "Mo Long": {
+        "img": "./assets/monsters/Mo Long.png"
+    },
+    "Seara": {
+        "img": "./assets/monsters/Seara.png"
+    },
+    "Orion": {
+        "img": "./assets/monsters/Orion.png"
+    },
+    "Perna": {
+        "img": "./assets/monsters/Perna.png"
+    },
+    "Raoq": {
+        "img": "./assets/monsters/Raoq.png"
+    }
+}
