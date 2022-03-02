@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/H0rn0chse/SWTD#readme",
   "dependencies": {
-    "@h0rn0chse/socket-server": "^1.1.4"
+    "feather-icons": "^4.28.0",
+    "picnic": "^7.1.0",
+    "wc-github-corners": "^0.1.5"
+  },
+  "devDependencies": {
+    "@h0rn0chse/socket-server": "^1.1.4",
+    "eslint": "^8.10.0"
   }
 }
