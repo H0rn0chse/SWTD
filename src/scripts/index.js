@@ -48,7 +48,23 @@ data.fiveStar.manager.setData(data.fiveStar);
 
 function addRow (id) {
     data[id].rows.push({
-        cells: []
+        cells: [{
+            content: [{
+                type: "text",
+                value: "Beschreibung"
+            }]
+        }, {
+            content: []
+        }, {
+            content: []
+        }, {
+            content: []
+        }, {
+            content: [{
+                type: "text",
+                value: "Kommentar"
+            }]
+        }]
     });
     data[id].manager.render();
 }
