@@ -1,5 +1,5 @@
 
-const dataPromise = fetch("../assets/monsters.json")
+const dataPromise = fetch("assets/monsters.json")
     .then(response => response.json());
 
 export async function getMonsterDetails (monster) {
