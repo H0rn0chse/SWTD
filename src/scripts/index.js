@@ -20,36 +20,30 @@ const addContentBtn = document.querySelector("#addContent_add");
 const data = {
     fourStar: {
         manager: new RowRenderer("fourStar", fourStarRowRoot, addCell, addContentModalHandler),
-        rows: [{
-            cells: [{
-                content: [{
-                    type: "text",
-                    value: "Foo"
-                }, {
-                    type: "monster",
-                    value: "Skogul"
-                }]
-            }]
-        }]
+        rows: []
     },
     fiveStar: {
         manager: new RowRenderer("fiveStar", fiveStarRowRoot, addCell, addContentModalHandler),
-        rows: [{
-            cells: [{
-                content: [{
-                    type: "text",
-                    value: "Bar"
-                }, {
-                    type: "monster",
-                    value: "Riley"
-                }]
-            }]
-        }]
+        rows: []
     }
 };
 
-data.fourStar.manager.setRows(data.fourStar.rows);
-data.fiveStar.manager.setRows(data.fiveStar.rows);
+const dataPromise = fetch("scripts/mockData.json")
+    .then(response => response.json())
+    .then((mockData) => {
+        Object.keys(data).forEach((id) => {
+            data[id].rows = mockData[id].rows;
+
+            if (document.querySelector("#editMode").checked) {
+                data[id].manager.render();
+            } else {
+                data[id].manager.renderTable();
+            }
+        });
+    });
+
+data.fourStar.manager.setData(data.fourStar);
+data.fiveStar.manager.setData(data.fiveStar);
 
 
 function addRow (id) {

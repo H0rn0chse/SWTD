@@ -4,21 +4,23 @@ import { replaceSvgWithIcon } from "./utils.js";
 export class RowRenderer {
     constructor (id, root, addCellHandler, addContentHandler) {
         this.id = id;
-        this.rows = [];
+        this.data = {
+            rows: []
+        };
         this.root = root;
         this.addCellHandler = addCellHandler;
         this.addContentHandler = addContentHandler;
     }
 
-    setRows (rows) {
-        this.rows = rows;
+    setData (data) {
+        this.data = data;
         this.render();
     }
 
     render () {
         this.root.innerHTML = "";
 
-        this.rows.forEach((row, rowIndex) => {
+        this.data.rows.forEach((row, rowIndex) => {
             const rowElem = document.createElement("div");
             rowElem.classList.add("row");
 
@@ -34,6 +36,7 @@ export class RowRenderer {
                         case "monster":
                             elem = document.createElement("img");
                             elem.classList.add("monster");
+                            elem.setAttribute("title", value);
                             getMonsterDetails(value)
                                 .then((details) => {
                                     elem.src = details.img;
@@ -77,7 +80,7 @@ export class RowRenderer {
 
         const table = document.createElement("table");
 
-        this.rows.forEach((row) => {
+        this.data.rows.forEach((row) => {
             const rowElem = document.createElement("tr");
 
             row.cells.forEach((cell) => {
@@ -90,6 +93,7 @@ export class RowRenderer {
                     switch (type) {
                         case "monster":
                             elem = document.createElement("img");
+                            elem.setAttribute("title", value);
                             elem.classList.add("monster");
                             getMonsterDetails(value)
                                 .then((details) => {

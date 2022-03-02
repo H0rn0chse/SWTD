@@ -10,7 +10,7 @@ body {
     color: #e4e4e4;
 }
 
-input, select, option, .modal > article {
+input, select, option, .modal > article, tr:nth-child(even) {
     background-color: #76797B !important;
 }
 
